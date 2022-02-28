@@ -1,0 +1,48 @@
+p {
+  color: red;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+  color: blue;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: blue;
+}
+
+body {
+  background-color: plum;
+  font-size: 25px;
+}
+
+section {
+  background-color: plum;
+}
+section h1 {
+  font-size: 60px;
+}
+section h1:hover {
+  color: green;
+}
+section p {
+  font-style: italic;
+}
+section p span {
+  color: red;
+}
+
+h4 {
+  background-color: purple;
+}
+
+/*# sourceMappingURL=lavanya.css.map */
