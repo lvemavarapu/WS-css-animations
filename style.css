@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+h1{
+    font-family: 'Praise', cursive;
+    
+}
+h1:hover{
+    color: greenyellow;
+    font-size: 3em;
+}
+
+div{
+    width:200px;
+    height:200px;
+    background-color: plum;
+   
+    
+}
+div:hover{
+    border:2px solid black;
+    width:300px;
+    height:300px;
+    transform: translate(300px,500px);
+    
+}
+p{
+    background-color:plum;
+    animation-name:plumanimation ;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes plumanimation{
+    from { background-color:plum;}to { background-color:yellow}
+    0%{margin-left:0;font-size: 3em;}
+    25%{margin-left:300px;}
+    50%{margin-top: 200px;}
+    100%{margin-bottom: 30px;}
+}
